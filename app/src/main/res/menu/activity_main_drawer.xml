@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_description"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Sign Descriptions
+" />
+
+    </group>
+
+    <item android:title="Did you enjoy this app?">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate" />
+        </menu>
+    </item>
+
+</menu>
